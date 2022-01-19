@@ -16,7 +16,7 @@ class ImportCategoryUseCase {
     private categoriesRepository: ICategoriesRepository,
   ) {}
 
-  loadCategories(file: any): Promise<IImportCategory> {
+  loadCategories(file: any): Promise<IImportCategory[]> {
     return new Promise((resolve, reject) => {
       // lê o arquivo
       const stream = fs.createReadStream(file.path);
@@ -41,8 +41,8 @@ class ImportCategoryUseCase {
           fs.promises.unlink(file.path);
           resolve(categories);
         })
-        .on('error', () => {
-          reject(error);
+        .on('error', (err) => {
+          reject(err);
         });
     });
   }
