@@ -9,13 +9,11 @@ LEGENDA:
 
 **RF**
 Deve ser possível cadastrar um carro.
-Deve ser possível listar todas as categorias.
 
 **RN** 
 Não deve ser possível cadastrar um carro com uma placa já existente.
-Não deve ser possível alterar a placa de um carro já cadastrado.
 O carro deve ser cadastrado com o default de disponibilidade true (disponível) por padrão.
-Só é permitido que um user admin faça o cadastro de um carro.
+**Só é permitido que um user admin faça o cadastro de um carro.
 
 
 
