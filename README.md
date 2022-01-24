@@ -13,7 +13,7 @@ Deve ser possível cadastrar um carro.
 **RN** 
 Não deve ser possível cadastrar um carro com uma placa já existente.
 O carro deve ser cadastrado com o default de disponibilidade true (disponível) por padrão.
-**Só é permitido que um user admin faça o cadastro de um carro.
+Só é permitido que um user admin faça o cadastro de um carro.
 
 
 
