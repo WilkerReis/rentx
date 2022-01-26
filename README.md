@@ -47,7 +47,6 @@ Só é permitido que um user admin faça o cadastro da especificação de um car
 
 **RF**
 Deve ser possível cadastrar a imagem do carro.
-Deve ser possível listar todos os carros.
 
 **RNF** 
 Utilizar o multer para upload dos arquivos.
