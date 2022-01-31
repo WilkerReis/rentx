@@ -21,7 +21,7 @@ class CreateRentalUseCase {
     private dateProvider: IDateProvider,
   ) {}
 
-  async execute({ user_id, car_id, expected_return_date }): Promise<Rental> {
+  async execute({ user_id, car_id, expected_return_date }: IRequest): Promise<Rental> {
     const minimumHour = 24;
 
     const carUnavailable = await this.rentalsRepository.findOpenRentalByCar(car_id);
