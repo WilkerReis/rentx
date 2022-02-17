@@ -66,3 +66,15 @@ Deve ser possível cadastrar um aluguel.
 O aluguel deve ter duração mínima de 24 horas.
 Só é permitido um aluguel por usuário.
 Só é permitido um aluguel por carro.
+
+
+# Recuperação de senha
+
+**RF**
+Deve ser possível o usuário recuperar a senha informando o e-mail
+O usuário deve receber um e-mail com o passo a passo para recuperar a senha
+O usuário deve conseguir inserir uma nova senha
+
+**RN**
+O usuário precisa informar uma nova senha
+O link enviado para a recuperação deve expirar em 3 horas
